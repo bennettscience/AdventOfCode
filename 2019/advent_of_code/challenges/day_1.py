@@ -38,7 +38,7 @@ def part2():
 
     for module in modules:
         print(f'STARTING ========================== {int(module)}')
-        fuel = check_fuel(int(module), 0)
+        check_fuel(int(module), 0)
 
     return sum(part2_individual)
     # return "Challenge not completed."
